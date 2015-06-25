@@ -13,7 +13,7 @@ or
         
         var success = function(app_list) { alert(JSON.stringify((app_list)); };
         var error = function(app_list) { alert("Oopsie! " + app_list); };
-        Applist.createEvent('', '', '', '', '', success, error)
+        Applist.createEvent('', '', '', '', '', success, error);
         
 ##Detailed usage:        
 Gives the list of all apps installed on the phone in a JSON object and also saves an icon of each of them in sdcardd//com.ionicframework.xxx/Cache/ ;        
